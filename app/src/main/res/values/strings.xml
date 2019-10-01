@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">View Colorizer</string>
+    <string name="placeholder">
+        This is a placeholder, and not a good one, either.
+
+
+    </string>
+
 </resources>
