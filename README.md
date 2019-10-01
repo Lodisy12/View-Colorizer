@@ -1,4 +1,4 @@
-# <name of app>
+# ViewColorizer
 
 An Android application based on Piet Mondrian artwork that allows you to color different boxes with screen taps.
 
