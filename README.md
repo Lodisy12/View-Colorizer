@@ -2,37 +2,39 @@
 
 An Android application based on Piet Mondrian artwork that allows you to color different boxes with screen taps.
 
-Submitted by: <name>
+Submitted by: Joseph Lawter
 
-Time spent: <time>
+Time spent: three hours, thirty minutes
 
 ## User Stories
 
 The following **required** functionality is complete:
 
-* [ ] Implement ConstraintLayout with manually defined constraints.
-* [ ] Use chaining to align TextViews.
-* [ ] Use baseline constraints to align text.
-* [ ] Change color of boxes and background by tapping screen and buttons.
+* [X] Implement ConstraintLayout with manually defined constraints.
+* [X] Use chaining to align TextViews.
+* [X] Use baseline constraints to align text.
+* [X] Change color of boxes and background by tapping screen and buttons.
 
 The following **additional** features are implemented:
 
-* [ ] Maintain UI state when switching orientation from portrait to landscape.
+* [X] Maintain UI state when switching orientation from portrait to landscape.
 * [ ] Replace TextViews with actual artwork.
 
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
 
-<img src='name_of_file.gif' title='Color My Views animated demo' alt='Color My Views demo' />
+<img src='View Colorizer.gif' title='View Colorizer animated demo' alt='View Colorizer demo' />
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Trying to keep the app from resetting on orientation change was a bit of a struggle.
+There are several resources online talking about the right and wrong ways to do it,
+but in the end I found all but the most basic and "wrongest" way of doing it too hard.
 
 ## License
 
-Copyright 2019 <name>
+Copyright 2019 Joseph Lawter
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
