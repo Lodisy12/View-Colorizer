@@ -6,6 +6,10 @@ import android.os.Bundle
 import android.view.View
 import kotlinx.android.synthetic.main.activity_main.*
 
+class MyApplicationClass  {
+
+}
+
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -23,6 +27,7 @@ class MainActivity : AppCompatActivity() {
             item.setOnClickListener { makeColored(it) }
         }
     }
+
 
     private fun makeColored(view: View) {
         when (view.id) {
